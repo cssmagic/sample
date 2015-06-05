@@ -1,12 +1,12 @@
 # Sample
 
-> File templates for daily development.
+> File templates for front-end projects.
 
 ## 简介
 
 每次在 GitHub 新建一个前端小项目，都要做一些繁琐的重复劳动？那不如把重复工作的归纳成一个项目模板把，把常用文件的框架都写好，以后新建项目时直接复制出来填填改改就可以了。
 
-已经写好的模板文件：
+现在可用的模板文件：
 
 * `README.md` （稍复杂的项目可以选用 `README.full.md`）
 * `.gitignore`
