@@ -1,0 +1,19 @@
+{
+  "name": "{sample}",
+  "homepage": "https://github.com/cssmagic/{sample}",
+  "author": "cssmagic <cssmagic.cn@gmail.com>",
+  "description": "{description}",
+  "license": "MIT",
+  "scripts": {
+    "dist": "gulp",
+    "clean": "gulp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.*",
+    "del": "^1.1.1",
+    "gulp-concat": "2.*",
+    "gulp-uglifyjs": "0.*"
+  }
+}

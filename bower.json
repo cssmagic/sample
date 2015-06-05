@@ -1,0 +1,34 @@
+{
+  "name": "{sample}",
+  "homepage": "https://github.com/cssmagic/{sample}",
+  "authors": [
+    "cssmagic <cssmagic.cn@gmail.com>"
+  ],
+  "description": "{description}",
+  "main": "dist/{sample}.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "{keywords}"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "**.sh",
+    "**.min.js",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src"
+  ],
+  "dependencies": {
+    "underscore": "1.*"
+  },
+  "devDependencies": {
+    "mocha.css": "0.1.0",
+    "mocha": "1.*",
+    "chai": "1.*"
+  }
+}
