@@ -58,6 +58,11 @@
 	</html>
     ```
 
+## API 文档
+
+* {Sample} 提供了简洁易用的 API，[详见此文档](https://github.com/cssmagic/sample/issues/1)。
+* 此外，建议阅读 [Wiki](https://github.com/cssmagic/sample/wiki) 来获取更多信息。
+
 ## 谁在用？
 
 以下网站采用 {Sample} 作为基础组件：

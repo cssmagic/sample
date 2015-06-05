@@ -42,7 +42,7 @@
 
 ## API 文档
 
-所有文档入口在 [Wiki 页面](https://github.com/cssmagic/{sample}/wiki)，快去看吧！
+所有文档入口在 [Wiki 页面](https://github.com/cssmagic/sample/wiki)，快去看吧！
 
 ## 单元测试
 
