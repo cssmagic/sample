@@ -42,8 +42,7 @@
 
 ## API 文档
 
-* {Sample} 提供了简洁易用的 API，[详见此文档](https://github.com/cssmagic/{sample}/issues/0)。
-* 此外，建议阅读 [Wiki](https://github.com/cssmagic/{sample}/wiki) 来获取更多信息。
+所有文档入口在 [Wiki 页面](https://github.com/cssmagic/{sample}/wiki)，快去看吧！
 
 ## 单元测试
 
