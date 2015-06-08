@@ -13,6 +13,8 @@
 * `package.json`
 * `bower.json`
 * `.editorconfig`
+* `doc/*.md`
+* `wiki/*.md`
 
 ## 兼容性
 
