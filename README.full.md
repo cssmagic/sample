@@ -13,6 +13,8 @@
 * `package.json`
 * `bower.json`
 * `.editorconfig`
+* `doc/*.md`
+* `wiki/*.md`
 
 ## 兼容性
 
@@ -51,8 +53,9 @@
 	</head>
 	<body>
 		...
-		<script src="bower_components/zepto.js/dist/zepto.js"></script>
 		<script src="bower_components/underscore/underscore.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/zepto.js/dist/zepto.js"></script>
 		<script src="bower_components/{sample}/dist/{sample}.js"></script>
 	</body>
 	</html>
@@ -67,7 +70,7 @@
 
 以下网站采用 {Sample} 作为基础组件：
 
-* [百姓网 - 手机版](http://m.baixing.com/)
+* [某某网站](https://github.com/cssmagic/sample)
 
 ***
 

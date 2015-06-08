@@ -25,7 +25,9 @@
     "demo"
   ],
   "dependencies": {
-    "underscore": "1.*"
+    "underscore": "1.*",
+    "jquery": "*",
+    "zepto.js": "1.*"
   },
   "devDependencies": {
     "mocha.css": "0.1.0",

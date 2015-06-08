@@ -21,6 +21,7 @@
 依赖以下类库：
 
 * Underscore
+* jQuery
 
 支持以下浏览器：
 
@@ -39,6 +40,8 @@
 
 	```html
 	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/zepto.js/dist/zepto.js"></script>
 	<script src="bower_components/{sample}/dist/{sample}.js"></script>
 	```
 
@@ -56,7 +59,7 @@
 
 以下网站采用 {Sample} 作为基础组件：
 
-* [百姓网 - 手机版](http://m.baixing.com/)
+* [某某网站](https://github.com/cssmagic/sample)
 
 ***
 
