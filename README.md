@@ -13,6 +13,8 @@
 * `package.json`
 * `bower.json`
 * `.editorconfig`
+* `src/*.js`
+* `test/*.*`
 * `doc/*.md`
 * `wiki/*.md`
 
@@ -42,7 +44,7 @@
 	<script src="bower_components/underscore/underscore.js"></script>
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/zepto.js/dist/zepto.js"></script>
-	<script src="bower_components/{sample}/dist/{sample}.js"></script>
+	<script src="bower_components/{sample}/src/{sample}.js"></script>
 	```
 
 ## API 文档
