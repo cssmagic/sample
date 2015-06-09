@@ -1,4 +1,9 @@
 void function () {
+	// check env
+	if (typeof window === 'undefined') {
+		console.error('[Sample] Open test.html in browsers to run tests!')
+		return
+	}
 
 	describe('Util', function () {
 		describe('sample.__util()', function () {
