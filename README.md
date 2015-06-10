@@ -45,9 +45,9 @@
 0. 在页面中加载 {Sample} 的脚本文件及必要的依赖：
 
 	```html
-	<script src="bower_components/underscore/underscore.js"></script>
-	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/zepto.js/dist/zepto.js"></script>
+	<script src="bower_components/underscore/underscore-min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/zepto.js/dist/zepto.min.js"></script>
 	<script src="bower_components/{sample}/src/{sample}.js"></script>
 	```
 

@@ -59,9 +59,9 @@
 	</head>
 	<body>
 		...
-		<script src="bower_components/underscore/underscore.js"></script>
-		<script src="bower_components/jquery/dist/jquery.js"></script>
-		<script src="bower_components/zepto.js/dist/zepto.js"></script>
+		<script src="bower_components/underscore/underscore-min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/zepto.js/dist/zepto.min.js"></script>
 		<script src="bower_components/{sample}/src/{sample}.js"></script>
 	</body>
 	</html>
