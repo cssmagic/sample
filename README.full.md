@@ -6,7 +6,7 @@
 
 每次在 GitHub 新建一个前端小项目，都要做一遍繁琐的、重复的 “文案工作”？那不如把常用文件汇总为一个项目模板吧，以后新建项目时直接复制出来填填改改就可以了。
 
-现在可用的模板文件：
+现在可用以下文件模板：
 
 * `README.md` （稍复杂的项目可以选用 `README.full.md`）
 * `.gitignore`
@@ -15,8 +15,12 @@
 * `.editorconfig`
 * `src/*.js`
 * `test/*.*`
+
+以及文档模板：
+
 * `doc/*.md`
 * `wiki/*.md`
+* `releases/*.md`
 
 ## 兼容性
 
@@ -70,7 +74,11 @@
 
 ## 谁在用？
 
-以下网站采用 {Sample} 作为基础组件：
+以下开源项目采用 {Sample} 作为基础组件：
+
+* [CMUI](https://github.com/CMUI/CMUI)
+
+因此，本项目运行在以下网站：
 
 * [某某网站](https://github.com/cssmagic/sample)
 
