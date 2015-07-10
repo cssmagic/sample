@@ -4,13 +4,15 @@
   "authors": [
     "cssmagic <cssmagic.cn@gmail.com>"
   ],
-  "description": "{description}",
-  "main": "dist/{sample}.js",
+  "description": "{description of Sample}",
+  "main": "dist/{sample}.umd.js",
   "moduleType": [
+    "amd",
+    "node",
     "globals"
   ],
   "keywords": [
-    "{keywords}"
+    "{keywords of sample}"
   ],
   "license": "MIT",
   "ignore": [

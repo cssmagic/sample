@@ -6,9 +6,6 @@
 var sample = function () {
 	'use strict'
 
-	// namespace
-	var sample = {}
-
 	// util
 	function _util() {
 		//...
@@ -23,15 +20,15 @@ var sample = function () {
 	}
 
 	// api
-	sample.sample1 = sample1
-	sample.sample2 = sample2
+	var exports = {}
+	exports.sample1 = sample1
+	exports.sample2 = sample2
 
 	/** DEBUG_INFO_START **/
-	//exports for unit test
-	sample.__util = _util
+	// only for unit test
+	exports.__util = _util
 	/** DEBUG_INFO_END **/
 
-	// exports
-	return sample
+	return exports
 
 }()

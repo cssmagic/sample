@@ -1,0 +1,19 @@
+!function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD
+		define(['jquery', 'underscore'], factory)
+	} else if (typeof exports === 'object') {
+		// CommonJS
+		module.exports = factory()
+	} else {
+		// Browser globals
+		root.{sample} = factory()
+	}
+}(this, function () {
+
+////////////////////  start: source code  ////////////////////
+<%= contents %>
+////////////////////  end: source code  ////////////////////
+
+	return {sample}
+})

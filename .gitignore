@@ -20,3 +20,6 @@ npm-debug.log
 
 *.zip
 *.gz
+
+# Sample ignores this dir, but your project need to include this.
+dist/
