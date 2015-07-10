@@ -13,8 +13,9 @@
 * `package.json`
 * `bower.json`
 * `.editorconfig`
-* `src/*.js`
+* `src/*.*`
 * `test/*.*`
+* `gulpfile.js`
 
 以及文档模板：
 
