@@ -28,6 +28,8 @@ gulp.task('js', function() {
 	gulp.src(path.join(myPath.src, 'sample.js'))
 		.pipe(wrap({src: path.join(myPath.src, '_wrapper/umd.ejs')}))
 		.pipe(replace(/\{sample}/g, 'sample'))
+		.pipe(replace(/\/\*\* DEBUG_INFO_START \*\*\//g, '/*'))
+		.pipe(replace(/\/\*\* DEBUG_INFO_END \*\*\//g, '*/'))
 		.pipe(rename('sample.umd.js'))
 		.pipe(gulp.dest(myPath.dest))
 		.pipe(uglify({
