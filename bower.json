@@ -4,7 +4,7 @@
   "authors": [
     "cssmagic <cssmagic.cn@gmail.com>"
   ],
-  "description": "{description of Sample}",
+  "description": "{Description of Sample}",
   "main": "dist/{sample}.umd.js",
   "moduleType": [
     "amd",

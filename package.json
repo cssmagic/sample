@@ -2,7 +2,7 @@
   "name": "{sample}",
   "homepage": "https://github.com/cssmagic/{sample}",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
-  "description": "{description}",
+  "description": "{Description of Sample}",
   "license": "MIT",
   "scripts": {
     "dist": "gulp",

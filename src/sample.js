@@ -1,9 +1,9 @@
 /**
- * {Sample} - {description}.
+ * {Sample} - {Description of Sample}.
  * Released under the MIT license.
  * https://github.com/cssmagic/sample
  */
-var sample = function () {
+var sample = function (window) {
 	'use strict'
 
 	// util
@@ -31,4 +31,4 @@ var sample = function () {
 
 	return exports
 
-}()
+}(window)
