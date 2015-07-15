@@ -28,13 +28,13 @@
 #### 浏览器支持
 
 * 支持以下移动平台的主流浏览器：
-    * iOS 5+
-    * Android 2.3+
+	* iOS 5+
+	* Android 2.3+
 
 * 同样支持以下桌面浏览器：
-    * Firefox (edge)
-    * Chrome (edge)
-    * Safari (edge)
+	* Firefox (edge)
+	* Chrome (edge)
+	* Safari (edge)
 
 #### 外部依赖
 
@@ -45,13 +45,13 @@
 
 0. 通过 Bower 安装：
 
-    ```sh
+	```sh
 	$ bower install {sample}
-    ```
+	```
 
 0. 在页面中加载 {Sample} 的样式文件、脚本文件及必要的依赖：
 
-    ```html
+	```html
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -66,7 +66,7 @@
 		<script src="bower_components/{sample}/src/{sample}.js"></script>
 	</body>
 	</html>
-    ```
+	```
 
 ## API 文档
 
