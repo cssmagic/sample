@@ -21,5 +21,8 @@ npm-debug.log
 *.zip
 *.gz
 
+*.sh
+*.bat
+
 # Sample ignores this dir, but your project may need to include this.
 dist/
