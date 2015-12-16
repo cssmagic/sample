@@ -20,12 +20,12 @@ gulp.task('default', ['clean'], function () {
 	gulp.start('css')
 })
 
-gulp.task('clean', function () {
-	del(path.join(myPath.dest, '*.*'))
+gulp.task('clean', function (callback) {
+	del(path.join(myPath.dest, '*.*'), callback)
 })
 
 gulp.task('js', function() {
-	gulp.src(path.join(myPath.src, 'sample.js'))
+	return gulp.src(path.join(myPath.src, 'sample.js'))
 		.pipe(wrap({src: path.join(myPath.src, '_wrapper/umd.ejs')}))
 		.pipe(replace(/\{sample}/g, 'sample'))
 		.pipe(replace(/\/\*\* DEBUG_INFO_START \*\*\//g, '/*'))
@@ -40,7 +40,7 @@ gulp.task('js', function() {
 })
 
 gulp.task('css', function() {
-	gulp.src(path.join(myPath.src, '_wrapper/css.styl'))
+	return gulp.src(path.join(myPath.src, '_wrapper/css.styl'))
 		.pipe(stylus({
 			linenos: false,
 			compress: false,
