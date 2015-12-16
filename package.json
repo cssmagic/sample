@@ -1,5 +1,6 @@
 {
   "name": "sample",
+  "private": true,
   "homepage": "https://github.com/cssmagic/{sample}",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
   "description": "{Description of Sample}",
