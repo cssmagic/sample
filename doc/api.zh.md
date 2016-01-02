@@ -1,19 +1,19 @@
 # API 文档
 
-## 导言<a name="intro"></a>
+## 导言 <a name="intro">&nbsp;</a>
 
 一段介绍文字。
 
-## JavaScript 变量<a name="js-var"></a>
+## JavaScript 变量 <a name="js-var">&nbsp;</a>
 
-### `sample.var1`<a name="js-var-var1"></a>
+### `sample.var1` <a name="js-var--var1">&nbsp;</a>
 
 类型。接口用途。
 
 
-## JavaScript 接口<a name="js-api"></a>
+## JavaScript 接口 <a name="js-api">&nbsp;</a>
 
-### `sample.sample1()`<a name="js-api-sample1"></a>
+### `sample.sample1()` <a name="js-api--sample1">&nbsp;</a>
 
 接口用途。
 
@@ -39,7 +39,7 @@ sample.sample1()
 
 ***
 
-### `sample.sample2(arg)`<a name="js-api-sample2"></a>
+### `sample.sample2(arg)` <a name="js-api--sample2">&nbsp;</a>
 
 接口用途。
 
