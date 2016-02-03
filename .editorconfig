@@ -4,25 +4,25 @@
 root = true
 
 [*]
-end_of_line = lf
 charset = utf-8
+end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
 quote_type = single
 
-[**.{json}]
+[*.json]
 indent_style = space
 indent_size = 2
 quote_type = double
 
-[**.{js,html,css,styl}]
+[*.{js,html,css,styl}]
 indent_style = tab
 
-[**.{html}]
+[*.{html}]
 quote_type = double
 
-[**.{js,css}]
+[*.{js,css}]
 curly_bracket_next_line = false
 
-[**.md]
+[*.md]
 trim_trailing_whitespace = false
