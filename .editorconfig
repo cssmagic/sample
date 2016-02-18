@@ -15,14 +15,11 @@ indent_style = space
 indent_size = 2
 quote_type = double
 
-[*.{js,html,css,styl}]
+[*.{html,css,styl}]
 indent_style = tab
 
 [*.{html}]
 quote_type = double
-
-[*.{js,css}]
-curly_bracket_next_line = false
 
 [*.md]
 trim_trailing_whitespace = false
