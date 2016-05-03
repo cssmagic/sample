@@ -1,0 +1,8 @@
+*
+
+!package.json
+!README.md
+!src/*.js
+!src/*.styl
+!dist/*.js
+!dist/*.css

@@ -1,9 +1,13 @@
 {
   "name": "sample",
-  "private": true,
+  "version": "0.0.0",
   "homepage": "https://github.com/cssmagic/{sample}",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
   "description": "{Description of Sample}",
+  "main": "dist/{sample}.umd.js",
+  "keywords": [
+    "{keywords of sample}"
+  ],
   "license": "MIT",
   "scripts": {
     "dist": "gulp",
@@ -12,7 +16,11 @@
     "css": "gulp css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "1.*",
+    "zepto.js": "1.*",
+    "jquery": "*"
+  },
   "devDependencies": {
     "gulp": "3.*",
     "del": "1.*",
