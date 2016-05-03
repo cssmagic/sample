@@ -1,15 +1,15 @@
 !function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		// AMD
-		define(['jquery', 'underscore'], factory)
+		define([], factory)
 	} else if (typeof exports === 'object') {
 		// CommonJS
-		module.exports = factory(require('jquery'), require('underscore'))
+		module.exports = factory()
 	} else {
 		// Browser globals
-		root.{sample} = factory(root.jQuery || root.Zepto || root.$, root._)
+		root.{sample} = factory()
 	}
-}(this, function ($, _) {
+}(this, function () {
 
 ////////////////////  START: source code  ////////////////////
 <%= contents %>
