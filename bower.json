@@ -24,7 +24,8 @@
     "gulpfile.js",
     "test",
     "doc",
-    "demo"
+    "demo",
+    "src/_wrapper/"
   ],
   "dependencies": {
     "underscore": "1.*",
