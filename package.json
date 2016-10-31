@@ -14,7 +14,8 @@
     "clean": "gulp clean",
     "js": "gulp js",
     "css": "gulp css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run dist",
+    "test": "echo \"See README.md to run tests in browsers.\" && exit 1"
   },
   "dependencies": {
     "underscore": "1.*",
