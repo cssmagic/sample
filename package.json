@@ -2,6 +2,7 @@
   "name": "sample",
   "version": "0.0.0",
   "homepage": "https://github.com/cssmagic/{sample}",
+  "repository": "github:cssmagic/{sample}",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
   "description": "{Description of Sample}",
   "main": "dist/{sample}.umd.js",
